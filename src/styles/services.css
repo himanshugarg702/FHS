@@ -1,0 +1,128 @@
+img{
+  height: 100%;
+  width: 100%;
+}
+
+.image_Content{
+  align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.image_para{
+  padding: 1.5rem;
+  width: 85%;
+}
+.services_heading{
+  width: 60%;
+}
+.services_heading1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+}
+.photos_Footer{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 25vh;
+    background-color: black;
+    padding: 5rem;
+}
+.photos_Footer_Header{
+  color: #fff;
+    padding: 1rem;
+}
+.imageCon{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* .services {
+  min-height: 60vh;
+}
+.section1_header {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.section1_header > div {
+  color: #134ebb;
+}
+h4 {
+  font-size: 2rem;
+  color: black;
+}
+.cards {
+  align-items: center;
+  width: 60%;
+ box-sizing: border-box;
+  margin-top: 1rem;
+  display: flex;
+  width: 80%;
+  
+}
+.card {
+  min-width: 200px;
+  display: flex;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 2%;
+}
+.card:hover {
+  transition: 1.5s;
+  background-color: #134ebb;
+  color: #fff;
+}
+.card_icon {
+  display: flex;
+  align-items: center;
+}
+.card_intro {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+.card_intro__heading {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.card_details {
+  box-sizing: border-box;
+  line-height: 30px;
+  opacity: 0.7;
+}
+.Discover {
+  display: flex;
+  flex-direction: row;
+}
+.discover_Image > img {
+  border-top-right-radius: 10%;
+  border-radius: 50%;
+  max-width: 50vw;
+}
+
+.discover_Image {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+h5{
+    font-size: 1.5rem;
+  color: black;
+}
+@media screen and (max-width: 892px) {
+  .Discover {
+    display: flex;
+    flex-direction: column;
+  }
+} */

@@ -1,0 +1,64 @@
+
+.homeContainer{
+    padding: 2rem;
+    min-height: 70vh;
+    display: flex;
+    justify-content: space-between;
+}
+.introHome{
+    width: 50vw;
+}
+.imgContainer{
+    margin-top: 2%;
+    animation-duration: 2s;
+    bottom: 30px;
+    position: relative;
+    /* transform: translateY(6px); */
+width: 50vw;
+}
+.imgContainer img{
+    border-radius: 15%;
+}
+.homePage_header span{
+    line-height: 5rem;
+    font-size: 4rem;
+}
+/* Define the animation */
+ @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  /* Apply the animation to the image */
+  .homePage_header {
+    animation: slideInFromLeft 1.5s forwards;
+  } 
+  /* Hide the image initially */
+
+  
+  /* Define the animation */
+  @keyframes slideInFromTop {
+    0% {
+      opacity: 0;
+      transform: translateY(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Apply the animation to the image */
+   img {
+    animation: slideInFromTop 2s ease-out forwards;
+  }
+
+  .buttonHome1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }

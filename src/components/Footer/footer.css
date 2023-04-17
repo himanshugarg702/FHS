@@ -1,0 +1,102 @@
+footer{
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+}
+.upperFooter{
+    background:
+    /* linear-gradient(#212245b2, #212245b2), */
+     url("../../assets/images/footer.jpg");
+ border-top-right-radius: 50%;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   padding: 100px 0px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.footer_header{
+    /* text-align: center; */
+}
+.footer_header span{
+    line-height: 3rem;
+    font-size: 2.5rem;
+    color: white;
+}
+.footerSide1{
+    width: 25vw;
+line-height: 2.2rem;
+font-size: 2rem;
+
+}
+.footer_text_container{
+    width: 25vw;
+}
+.lowerFooter1{
+    display: flex;
+    padding: 2%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footerGrid{
+    display: grid;
+    width: 70%;
+    max-width: 850px;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows: auto; */
+}
+.footerGrid1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.footerGrid1 a{
+    line-height: 2.5rem;
+    font-size: 2.5rem;
+}
+.footerGrid2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.footerGrid2 a{
+    line-height: 2.5rem;
+    font-size: 2.5rem;
+}
+.footerGrid3{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.footerGrid3 a{
+    line-height: 2.5rem;
+    font-size: 2.5rem;
+}
+a{
+    text-decoration: none;
+}
+@media screen and (max-width: 892px) {
+   .lowerFooter1{
+    display: flex;
+    flex-direction: column;
+   }
+   .left{
+    font-size: 1px;
+   }
+   .footerGrid{
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    align-items: center;
+   }
+  }
+  .lowerFooter{
+    background: url('../../assets/images/footerback.jpg');
+  }

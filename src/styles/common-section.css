@@ -1,0 +1,31 @@
+.common__section {
+    background:
+     linear-gradient(#212245b2, #212245b2),
+      url("../assets/images/footer.jpg");
+  /* height: 10vh; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0px;
+    margin-top: -2.7%;
+  }
+  h2{
+    color: #fff;
+    line-height: 4rem;
+    font-size: 3rem;
+    text-align: center;
+  }
+  /* Define the animation */
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* Apply the animation to the image */
+.text-white {
+  animation: slideInFromLeft 1.5s forwards;
+}
